@@ -28,136 +28,141 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
-            this.originalPictureLabel = new System.Windows.Forms.Label();
-            this.resultPictureLabel = new System.Windows.Forms.Label();
-            this.resultPictureBox = new System.Windows.Forms.PictureBox();
-            this.originalPictureBox = new System.Windows.Forms.PictureBox();
-            this.openImageButton = new System.Windows.Forms.Button();
-            this.saveResultButton = new System.Windows.Forms.Button();
-            this.openImageDialog = new System.Windows.Forms.OpenFileDialog();
-            this.saveResultDialog = new System.Windows.Forms.SaveFileDialog();
-            this.tableLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.resultPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.originalPictureBox)).BeginInit();
-            this.SuspendLayout();
+            tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            originalPictureLabel = new System.Windows.Forms.Label();
+            resultPictureLabel = new System.Windows.Forms.Label();
+            resultPictureBox = new System.Windows.Forms.PictureBox();
+            originalPictureBox = new System.Windows.Forms.PictureBox();
+            openImageButton = new System.Windows.Forms.Button();
+            saveResultButton = new System.Windows.Forms.Button();
+            openImageDialog = new System.Windows.Forms.OpenFileDialog();
+            saveResultDialog = new System.Windows.Forms.SaveFileDialog();
+            tableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)resultPictureBox).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)originalPictureBox).BeginInit();
+            SuspendLayout();
             // 
             // tableLayoutPanel1
             // 
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Controls.Add(this.originalPictureLabel, 0, 0);
-            this.tableLayoutPanel1.Controls.Add(this.resultPictureLabel, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.resultPictureBox, 1, 1);
-            this.tableLayoutPanel1.Controls.Add(this.originalPictureBox, 0, 1);
-            this.tableLayoutPanel1.Controls.Add(this.openImageButton, 0, 2);
-            this.tableLayoutPanel1.Controls.Add(this.saveResultButton, 1, 2);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 3;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(907, 674);
-            this.tableLayoutPanel1.TabIndex = 0;
+            tableLayoutPanel1.ColumnCount = 2;
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            tableLayoutPanel1.Controls.Add(originalPictureLabel, 0, 0);
+            tableLayoutPanel1.Controls.Add(resultPictureLabel, 1, 0);
+            tableLayoutPanel1.Controls.Add(resultPictureBox, 1, 1);
+            tableLayoutPanel1.Controls.Add(originalPictureBox, 0, 1);
+            tableLayoutPanel1.Controls.Add(openImageButton, 0, 2);
+            tableLayoutPanel1.Controls.Add(saveResultButton, 1, 2);
+            tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.RowCount = 3;
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
+            tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
+            tableLayoutPanel1.Size = new System.Drawing.Size(1058, 778);
+            tableLayoutPanel1.TabIndex = 0;
             // 
             // originalPictureLabel
             // 
-            this.originalPictureLabel.AutoSize = true;
-            this.originalPictureLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.originalPictureLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.originalPictureLabel.Location = new System.Drawing.Point(3, 0);
-            this.originalPictureLabel.Name = "originalPictureLabel";
-            this.originalPictureLabel.Size = new System.Drawing.Size(447, 67);
-            this.originalPictureLabel.TabIndex = 4;
-            this.originalPictureLabel.Text = "Original";
-            this.originalPictureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            originalPictureLabel.AutoSize = true;
+            originalPictureLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            originalPictureLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            originalPictureLabel.Location = new System.Drawing.Point(4, 0);
+            originalPictureLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            originalPictureLabel.Name = "originalPictureLabel";
+            originalPictureLabel.Size = new System.Drawing.Size(521, 77);
+            originalPictureLabel.TabIndex = 4;
+            originalPictureLabel.Text = "Original";
+            originalPictureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // resultPictureLabel
             // 
-            this.resultPictureLabel.AutoSize = true;
-            this.resultPictureLabel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.resultPictureLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.resultPictureLabel.Location = new System.Drawing.Point(456, 0);
-            this.resultPictureLabel.Name = "resultPictureLabel";
-            this.resultPictureLabel.Size = new System.Drawing.Size(448, 67);
-            this.resultPictureLabel.TabIndex = 5;
-            this.resultPictureLabel.Text = "Result";
-            this.resultPictureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            resultPictureLabel.AutoSize = true;
+            resultPictureLabel.Dock = System.Windows.Forms.DockStyle.Fill;
+            resultPictureLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
+            resultPictureLabel.Location = new System.Drawing.Point(533, 0);
+            resultPictureLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resultPictureLabel.Name = "resultPictureLabel";
+            resultPictureLabel.Size = new System.Drawing.Size(521, 77);
+            resultPictureLabel.TabIndex = 5;
+            resultPictureLabel.Text = "Result";
+            resultPictureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // resultPictureBox
             // 
-            this.resultPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.resultPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.resultPictureBox.Location = new System.Drawing.Point(456, 70);
-            this.resultPictureBox.Name = "resultPictureBox";
-            this.resultPictureBox.Size = new System.Drawing.Size(448, 533);
-            this.resultPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.resultPictureBox.TabIndex = 1;
-            this.resultPictureBox.TabStop = false;
+            resultPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            resultPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            resultPictureBox.Location = new System.Drawing.Point(533, 80);
+            resultPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            resultPictureBox.Name = "resultPictureBox";
+            resultPictureBox.Size = new System.Drawing.Size(521, 616);
+            resultPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            resultPictureBox.TabIndex = 1;
+            resultPictureBox.TabStop = false;
             // 
             // originalPictureBox
             // 
-            this.originalPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.originalPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.originalPictureBox.Location = new System.Drawing.Point(3, 70);
-            this.originalPictureBox.Name = "originalPictureBox";
-            this.originalPictureBox.Size = new System.Drawing.Size(447, 533);
-            this.originalPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.originalPictureBox.TabIndex = 0;
-            this.originalPictureBox.TabStop = false;
+            originalPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            originalPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
+            originalPictureBox.Location = new System.Drawing.Point(4, 80);
+            originalPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            originalPictureBox.Name = "originalPictureBox";
+            originalPictureBox.Size = new System.Drawing.Size(521, 616);
+            originalPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            originalPictureBox.TabIndex = 0;
+            originalPictureBox.TabStop = false;
             // 
             // openImageButton
             // 
-            this.openImageButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.openImageButton.Location = new System.Drawing.Point(3, 609);
-            this.openImageButton.Name = "openImageButton";
-            this.openImageButton.Size = new System.Drawing.Size(447, 62);
-            this.openImageButton.TabIndex = 2;
-            this.openImageButton.Text = "Open Image";
-            this.openImageButton.UseVisualStyleBackColor = true;
-            this.openImageButton.Click += new System.EventHandler(this.openImageButton_Click);
+            openImageButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            openImageButton.Location = new System.Drawing.Point(4, 702);
+            openImageButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            openImageButton.Name = "openImageButton";
+            openImageButton.Size = new System.Drawing.Size(521, 73);
+            openImageButton.TabIndex = 2;
+            openImageButton.Text = "Open Image";
+            openImageButton.UseVisualStyleBackColor = true;
+            openImageButton.Click += openImageButton_Click;
             // 
             // saveResultButton
             // 
-            this.saveResultButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.saveResultButton.Enabled = false;
-            this.saveResultButton.Location = new System.Drawing.Point(456, 609);
-            this.saveResultButton.Name = "saveResultButton";
-            this.saveResultButton.Size = new System.Drawing.Size(448, 62);
-            this.saveResultButton.TabIndex = 3;
-            this.saveResultButton.Text = "Save Result";
-            this.saveResultButton.UseVisualStyleBackColor = true;
-            this.saveResultButton.Click += new System.EventHandler(this.saveResultButton_Click);
+            saveResultButton.Dock = System.Windows.Forms.DockStyle.Fill;
+            saveResultButton.Enabled = false;
+            saveResultButton.Location = new System.Drawing.Point(533, 702);
+            saveResultButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            saveResultButton.Name = "saveResultButton";
+            saveResultButton.Size = new System.Drawing.Size(521, 73);
+            saveResultButton.TabIndex = 3;
+            saveResultButton.Text = "Save Result";
+            saveResultButton.UseVisualStyleBackColor = true;
+            saveResultButton.Click += saveResultButton_Click;
             // 
             // openImageDialog
             // 
-            this.openImageDialog.FileName = "openFileDialog1";
-            this.openImageDialog.Filter = "Image Files|*.jpg;*.jpeg;*.bmp;*.png";
-            this.openImageDialog.Title = "Open Image";
+            openImageDialog.FileName = "openFileDialog1";
+            openImageDialog.Filter = "Image Files|*.jpg;*.jpeg;*.bmp;*.png";
+            openImageDialog.Title = "Open Image";
             // 
             // saveResultDialog
             // 
-            this.saveResultDialog.Filter = "JPEG (*.jpg)|*.jpg|PNG (*.png)|*.png|BMP (*.bmp)|*.bmp";
+            saveResultDialog.Filter = "JPEG (*.jpg)|*.jpg|PNG (*.png)|*.png|BMP (*.bmp)|*.bmp";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(907, 674);
-            this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Form1";
-            this.Text = "Squarify";
-            this.tableLayoutPanel1.ResumeLayout(false);
-            this.tableLayoutPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.resultPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.originalPictureBox)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1058, 778);
+            Controls.Add(tableLayoutPanel1);
+            Margin = new System.Windows.Forms.Padding(2);
+            Name = "Form1";
+            Text = "Squarify";
+            tableLayoutPanel1.ResumeLayout(false);
+            tableLayoutPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)resultPictureBox).EndInit();
+            ((System.ComponentModel.ISupportInitialize)originalPictureBox).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
