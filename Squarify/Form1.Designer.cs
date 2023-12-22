@@ -55,13 +55,13 @@
             tableLayoutPanel1.Controls.Add(saveResultButton, 1, 2);
             tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
+            tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 3;
             tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
             tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 80F));
             tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10F));
-            tableLayoutPanel1.Size = new System.Drawing.Size(1058, 778);
+            tableLayoutPanel1.Size = new System.Drawing.Size(1209, 1037);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // originalPictureLabel
@@ -69,10 +69,10 @@
             originalPictureLabel.AutoSize = true;
             originalPictureLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             originalPictureLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            originalPictureLabel.Location = new System.Drawing.Point(4, 0);
-            originalPictureLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            originalPictureLabel.Location = new System.Drawing.Point(5, 0);
+            originalPictureLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             originalPictureLabel.Name = "originalPictureLabel";
-            originalPictureLabel.Size = new System.Drawing.Size(521, 77);
+            originalPictureLabel.Size = new System.Drawing.Size(594, 103);
             originalPictureLabel.TabIndex = 4;
             originalPictureLabel.Text = "Original";
             originalPictureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -82,10 +82,10 @@
             resultPictureLabel.AutoSize = true;
             resultPictureLabel.Dock = System.Windows.Forms.DockStyle.Fill;
             resultPictureLabel.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, 0);
-            resultPictureLabel.Location = new System.Drawing.Point(533, 0);
-            resultPictureLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            resultPictureLabel.Location = new System.Drawing.Point(609, 0);
+            resultPictureLabel.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             resultPictureLabel.Name = "resultPictureLabel";
-            resultPictureLabel.Size = new System.Drawing.Size(521, 77);
+            resultPictureLabel.Size = new System.Drawing.Size(595, 103);
             resultPictureLabel.TabIndex = 5;
             resultPictureLabel.Text = "Result";
             resultPictureLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -94,10 +94,10 @@
             // 
             resultPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             resultPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            resultPictureBox.Location = new System.Drawing.Point(533, 80);
-            resultPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            resultPictureBox.Location = new System.Drawing.Point(609, 107);
+            resultPictureBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             resultPictureBox.Name = "resultPictureBox";
-            resultPictureBox.Size = new System.Drawing.Size(521, 616);
+            resultPictureBox.Size = new System.Drawing.Size(595, 821);
             resultPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             resultPictureBox.TabIndex = 1;
             resultPictureBox.TabStop = false;
@@ -106,10 +106,10 @@
             // 
             originalPictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             originalPictureBox.Dock = System.Windows.Forms.DockStyle.Fill;
-            originalPictureBox.Location = new System.Drawing.Point(4, 80);
-            originalPictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            originalPictureBox.Location = new System.Drawing.Point(5, 107);
+            originalPictureBox.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             originalPictureBox.Name = "originalPictureBox";
-            originalPictureBox.Size = new System.Drawing.Size(521, 616);
+            originalPictureBox.Size = new System.Drawing.Size(594, 821);
             originalPictureBox.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             originalPictureBox.TabIndex = 0;
             originalPictureBox.TabStop = false;
@@ -117,10 +117,10 @@
             // openImageButton
             // 
             openImageButton.Dock = System.Windows.Forms.DockStyle.Fill;
-            openImageButton.Location = new System.Drawing.Point(4, 702);
-            openImageButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            openImageButton.Location = new System.Drawing.Point(5, 936);
+            openImageButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             openImageButton.Name = "openImageButton";
-            openImageButton.Size = new System.Drawing.Size(521, 73);
+            openImageButton.Size = new System.Drawing.Size(594, 97);
             openImageButton.TabIndex = 2;
             openImageButton.Text = "Open Image";
             openImageButton.UseVisualStyleBackColor = true;
@@ -130,10 +130,10 @@
             // 
             saveResultButton.Dock = System.Windows.Forms.DockStyle.Fill;
             saveResultButton.Enabled = false;
-            saveResultButton.Location = new System.Drawing.Point(533, 702);
-            saveResultButton.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            saveResultButton.Location = new System.Drawing.Point(609, 936);
+            saveResultButton.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             saveResultButton.Name = "saveResultButton";
-            saveResultButton.Size = new System.Drawing.Size(521, 73);
+            saveResultButton.Size = new System.Drawing.Size(595, 97);
             saveResultButton.TabIndex = 3;
             saveResultButton.Text = "Save Result";
             saveResultButton.UseVisualStyleBackColor = true;
@@ -151,11 +151,11 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            ClientSize = new System.Drawing.Size(1058, 778);
+            AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            ClientSize = new System.Drawing.Size(1209, 1037);
             Controls.Add(tableLayoutPanel1);
-            Margin = new System.Windows.Forms.Padding(2);
+            Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             Name = "Form1";
             Text = "Squarify";
             tableLayoutPanel1.ResumeLayout(false);
